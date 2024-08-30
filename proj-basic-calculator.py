@@ -23,8 +23,8 @@ def calculator():
             "*": mult,
             "/": divide,
         }
-        for symb in symbols:
-            print(symb)
+        for symbol in symbols:
+            print(symbol)
 
         operation_symbol=input("Pick an operation: ")
         no2=float(input("Enter the Second number: "))
